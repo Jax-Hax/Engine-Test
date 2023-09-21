@@ -3,18 +3,6 @@
 version = 3
 
 [[package]]
-name = "Engine-Test"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "fs_extra",
- "glam",
- "glob",
- "pollster",
- "vertix",
-]
-
-[[package]]
 name = "ab_glyph"
 version = "0.2.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -420,6 +408,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7268b386296a025e474d5140678f75d6de9493ae55a5d709eeb9dd08149945e1"
 dependencies = [
  "cfg-if",
+]
+
+[[package]]
+name = "engine-test"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "fs_extra",
+ "glam",
+ "glob",
+ "pollster",
+ "vertix",
 ]
 
 [[package]]
